@@ -1,10 +1,11 @@
 import React from 'react';
 import '../Button.css'; 
 
-const GradientButton = () => {
+const GradientButton = ({ text,icon }) => {
   return (
     <button className="gradient-button">
-        SEND YOUR MESSAGE
+      {text}
+      {icon && <span className="button-icon">{icon}</span>}
     </button>
   );
 };
