@@ -1,12 +1,14 @@
 .groupCards
 {
-  background-color: rgb(244, 248, 255);
   padding: 1rem 1.5rem;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 1.1rem rgba(0, 0, 0, 0.1);
-  border: .1rem solid rgba(255, 252, 252, 0.01);
-  width: 70%;
+  border: 0.1rem solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+  margin-bottom: 20px;
 }
+
+
 .hover-zoom {
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;

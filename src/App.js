@@ -1,22 +1,17 @@
-// src/App.js
 import React from 'react';
-import Background1 from './components/background1';
-import Header from './components/header';
-import HelpingSection from './components/HelpingSection';
-import ContactForm from './components/ContactForm';
-import Cards from './components/Card';
-import DoingSection from './components/DoingSection';
+import RightSide from './pages/RightSide';
+import LeftSide from './pages/LeftSide';
 const App = () => {
   return (
-    <div>
-      {/* <Background1 /> */}
-      {/* <Header /> */}
-      {/* <Cards/> */}
-      {/* <Features /> */}
-      <HelpingSection />
-      <DoingSection/>
-      {/* <ContactForm /> */}
+    <div className="app-container">
+      <div className="right-side">
+      <RightSide />
     </div>
+    <div >
+      <LeftSide />
+    </div>
+    
+  </div>
   );
 };
 
